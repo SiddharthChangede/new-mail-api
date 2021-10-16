@@ -14,7 +14,7 @@ const mailOptions = {
     from: '123sid21@gmail.com',
     to: '123sid231@gmail.com',
     subject: 'try new email via api',
-    text: 'Hii Siddharth'
+    text: 'Hii Siddharth! new mail'
 }
 
 app.post('/send-mail', (req, response) => {
